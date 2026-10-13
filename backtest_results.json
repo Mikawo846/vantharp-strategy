@@ -1,0 +1,1571 @@
+{
+  "metrics": {
+    "initial_capital": 10000,
+    "final_capital": 13337.29,
+    "return_pct": 33.37,
+    "total_pnl_usd": 4139.31,
+    "total_trades": 194,
+    "win_rate_pct": 38.7,
+    "profit_factor": 1.3,
+    "avg_win_R": 2.16,
+    "avg_loss_R": 1.04,
+    "expectancy_R": 0.2,
+    "sqn": 1.7,
+    "sqn_grade": "Нейтральная",
+    "max_drawdown_pct": 9.28
+  },
+  "trades": [
+    {
+      "symbol": "BTCUSDT",
+      "entry": 64428.9,
+      "exit": 62902.5545,
+      "pnl": -106.18,
+      "r": -1.06,
+      "capital": 9887.49
+    },
+    {
+      "symbol": "BTCUSDT",
+      "entry": 64756.1,
+      "exit": 63247.7198,
+      "pnl": -105.09,
+      "r": -1.06,
+      "capital": 9776.03
+    },
+    {
+      "symbol": "BTCUSDT",
+      "entry": 64869.4,
+      "exit": 63753.2457,
+      "pnl": -106.14,
+      "r": -1.09,
+      "capital": 9661.37
+    },
+    {
+      "symbol": "BTCUSDT",
+      "entry": 64367.2,
+      "exit": 62968.6629,
+      "pnl": -103.14,
+      "r": -1.07,
+      "capital": 9551.56
+    },
+    {
+      "symbol": "BTCUSDT",
+      "entry": 64118.0,
+      "exit": 62891.854,
+      "pnl": -102.86,
+      "r": -1.08,
+      "capital": 9441.2
+    },
+    {
+      "symbol": "BTCUSDT",
+      "entry": 64203.0,
+      "exit": 64481.6619,
+      "pnl": 174.68,
+      "r": 1.85,
+      "capital": 9605.36
+    },
+    {
+      "symbol": "BTCUSDT",
+      "entry": 68543.0,
+      "exit": 77859.1471,
+      "pnl": 262.04,
+      "r": 2.73,
+      "capital": 9862.74
+    },
+    {
+      "symbol": "BTCUSDT",
+      "entry": 79812.5,
+      "exit": 77727.8168,
+      "pnl": -104.14,
+      "r": -1.06,
+      "capital": 9752.93
+    },
+    {
+      "symbol": "BTCUSDT",
+      "entry": 81349.9,
+      "exit": 78974.0198,
+      "pnl": -102.39,
+      "r": -1.05,
+      "capital": 9645.53
+    },
+    {
+      "symbol": "BTCUSDT",
+      "entry": 77729.9,
+      "exit": 75403.8203,
+      "pnl": -101.15,
+      "r": -1.05,
+      "capital": 9539.55
+    },
+    {
+      "symbol": "BTCUSDT",
+      "entry": 78067.1,
+      "exit": 84390.3719,
+      "pnl": 228.56,
+      "r": 2.4,
+      "capital": 9763.24
+    },
+    {
+      "symbol": "BTCUSDT",
+      "entry": 84136.9,
+      "exit": 82097.2364,
+      "pnl": -103.53,
+      "r": -1.06,
+      "capital": 9653.67
+    },
+    {
+      "symbol": "BTCUSDT",
+      "entry": 83908.2,
+      "exit": 82876.6495,
+      "pnl": -108.17,
+      "r": -1.12,
+      "capital": 9533.73
+    },
+    {
+      "symbol": "ETHUSDT",
+      "entry": 1742.65,
+      "exit": 1796.301,
+      "pnl": 132.77,
+      "r": 1.39,
+      "capital": 9662.43
+    },
+    {
+      "symbol": "ETHUSDT",
+      "entry": 1875.23,
+      "exit": 1811.2202,
+      "pnl": -100.73,
+      "r": -1.04,
+      "capital": 9557.46
+    },
+    {
+      "symbol": "ETHUSDT",
+      "entry": 1879.9,
+      "exit": 1914.497,
+      "pnl": 126.99,
+      "r": 1.33,
+      "capital": 9678.29
+    },
+    {
+      "symbol": "ETHUSDT",
+      "entry": 1916.89,
+      "exit": 1868.3091,
+      "pnl": -102.37,
+      "r": -1.06,
+      "capital": 9570.2
+    },
+    {
+      "symbol": "ETHUSDT",
+      "entry": 1900.86,
+      "exit": 2440.5584,
+      "pnl": 561.04,
+      "r": 5.86,
+      "capital": 10120.93
+    },
+    {
+      "symbol": "ETHUSDT",
+      "entry": 2501.55,
+      "exit": 2413.1985,
+      "pnl": -105.36,
+      "r": -1.04,
+      "capital": 10011.27
+    },
+    {
+      "symbol": "ETHUSDT",
+      "entry": 2516.64,
+      "exit": 2426.7078,
+      "pnl": -104.16,
+      "r": -1.04,
+      "capital": 9902.9
+    },
+    {
+      "symbol": "ETHUSDT",
+      "entry": 2559.43,
+      "exit": 2441.4528,
+      "pnl": -102.1,
+      "r": -1.03,
+      "capital": 9797.58
+    },
+    {
+      "symbol": "ETHUSDT",
+      "entry": 2508.25,
+      "exit": 2703.1496,
+      "pnl": 223.46,
+      "r": 2.28,
+      "capital": 10017.02
+    },
+    {
+      "symbol": "ETHUSDT",
+      "entry": 2732.4,
+      "exit": 2643.052,
+      "pnl": -104.61,
+      "r": -1.04,
+      "capital": 9907.81
+    },
+    {
+      "symbol": "SOLUSDT",
+      "entry": 73.89,
+      "exit": 80.4068,
+      "pnl": 173.72,
+      "r": 1.75,
+      "capital": 10078.89
+    },
+    {
+      "symbol": "SOLUSDT",
+      "entry": 77.4,
+      "exit": 75.1867,
+      "pnl": -105.92,
+      "r": -1.05,
+      "capital": 9967.68
+    },
+    {
+      "symbol": "SOLUSDT",
+      "entry": 76.76,
+      "exit": 74.8835,
+      "pnl": -105.64,
+      "r": -1.06,
+      "capital": 9855.92
+    },
+    {
+      "symbol": "SOLUSDT",
+      "entry": 75.6,
+      "exit": 95.8401,
+      "pnl": 395.27,
+      "r": 4.01,
+      "capital": 10245.18
+    },
+    {
+      "symbol": "SOLUSDT",
+      "entry": 103.94,
+      "exit": 98.1556,
+      "pnl": -105.06,
+      "r": -1.03,
+      "capital": 10137.35
+    },
+    {
+      "symbol": "SOLUSDT",
+      "entry": 105.18,
+      "exit": 100.8148,
+      "pnl": -104.89,
+      "r": -1.03,
+      "capital": 10028.81
+    },
+    {
+      "symbol": "SOLUSDT",
+      "entry": 105.97,
+      "exit": 102.4591,
+      "pnl": -104.68,
+      "r": -1.04,
+      "capital": 9919.59
+    },
+    {
+      "symbol": "SOLUSDT",
+      "entry": 101.62,
+      "exit": 96.8668,
+      "pnl": -102.23,
+      "r": -1.03,
+      "capital": 9814.18
+    },
+    {
+      "symbol": "SOLUSDT",
+      "entry": 104.6,
+      "exit": 107.5713,
+      "pnl": 131.89,
+      "r": 1.34,
+      "capital": 9942.06
+    },
+    {
+      "symbol": "SOLUSDT",
+      "entry": 116.8,
+      "exit": 111.9146,
+      "pnl": -102.84,
+      "r": -1.03,
+      "capital": 9835.66
+    },
+    {
+      "symbol": "SOLUSDT",
+      "entry": 112.59,
+      "exit": 109.4662,
+      "pnl": -103.53,
+      "r": -1.05,
+      "capital": 9726.81
+    },
+    {
+      "symbol": "BNBUSDT",
+      "entry": 628.9,
+      "exit": 613.063,
+      "pnl": -102.92,
+      "r": -1.06,
+      "capital": 9618.1
+    },
+    {
+      "symbol": "BNBUSDT",
+      "entry": 587.4,
+      "exit": 572.8642,
+      "pnl": -101.87,
+      "r": -1.06,
+      "capital": 9510.41
+    },
+    {
+      "symbol": "BNBUSDT",
+      "entry": 581.7,
+      "exit": 570.7789,
+      "pnl": -102.56,
+      "r": -1.08,
+      "capital": 9400.25
+    },
+    {
+      "symbol": "BNBUSDT",
+      "entry": 589.3,
+      "exit": 575.4196,
+      "pnl": -99.85,
+      "r": -1.06,
+      "capital": 9294.41
+    },
+    {
+      "symbol": "BNBUSDT",
+      "entry": 593.2,
+      "exit": 600.5532,
+      "pnl": 120.63,
+      "r": 1.3,
+      "capital": 9406.14
+    },
+    {
+      "symbol": "BNBUSDT",
+      "entry": 608.4,
+      "exit": 694.5202,
+      "pnl": 327.37,
+      "r": 3.48,
+      "capital": 9725.16
+    },
+    {
+      "symbol": "BNBUSDT",
+      "entry": 711.6,
+      "exit": 740.9662,
+      "pnl": 208.35,
+      "r": 2.14,
+      "capital": 9928.2
+    },
+    {
+      "symbol": "BNBUSDT",
+      "entry": 732.8,
+      "exit": 749.4027,
+      "pnl": 142.27,
+      "r": 1.43,
+      "capital": 10063.87
+    },
+    {
+      "symbol": "BNBUSDT",
+      "entry": 772.5,
+      "exit": 751.0925,
+      "pnl": -105.94,
+      "r": -1.05,
+      "capital": 9952.49
+    },
+    {
+      "symbol": "BNBUSDT",
+      "entry": 776.1,
+      "exit": 760.6105,
+      "pnl": -106.86,
+      "r": -1.07,
+      "capital": 9838.16
+    },
+    {
+      "symbol": "BNBUSDT",
+      "entry": 789.6,
+      "exit": 773.1276,
+      "pnl": -105.31,
+      "r": -1.07,
+      "capital": 9725.77
+    },
+    {
+      "symbol": "XRPUSDT",
+      "entry": 1.2688,
+      "exit": 1.2161,
+      "pnl": -100.63,
+      "r": -1.03,
+      "capital": 9621.63
+    },
+    {
+      "symbol": "XRPUSDT",
+      "entry": 1.1725,
+      "exit": 1.1315,
+      "pnl": -100.2,
+      "r": -1.04,
+      "capital": 9517.3
+    },
+    {
+      "symbol": "XRPUSDT",
+      "entry": 1.1244,
+      "exit": 1.0963,
+      "pnl": -100.75,
+      "r": -1.06,
+      "capital": 9410.84
+    },
+    {
+      "symbol": "XRPUSDT",
+      "entry": 1.0681,
+      "exit": 1.4561,
+      "pnl": 398.74,
+      "r": 4.24,
+      "capital": 9804.93
+    },
+    {
+      "symbol": "XRPUSDT",
+      "entry": 1.4647,
+      "exit": 1.3957,
+      "pnl": -101.02,
+      "r": -1.03,
+      "capital": 9700.79
+    },
+    {
+      "symbol": "XRPUSDT",
+      "entry": 1.4346,
+      "exit": 1.3825,
+      "pnl": -100.87,
+      "r": -1.04,
+      "capital": 9595.91
+    },
+    {
+      "symbol": "XRPUSDT",
+      "entry": 1.464,
+      "exit": 1.391,
+      "pnl": -98.7,
+      "r": -1.03,
+      "capital": 9494.32
+    },
+    {
+      "symbol": "XRPUSDT",
+      "entry": 1.418,
+      "exit": 1.513,
+      "pnl": 204.24,
+      "r": 2.15,
+      "capital": 9695.52
+    },
+    {
+      "symbol": "ADAUSDT",
+      "entry": 0.1737,
+      "exit": 0.1815,
+      "pnl": 128.95,
+      "r": 1.33,
+      "capital": 9822.15
+    },
+    {
+      "symbol": "ADAUSDT",
+      "entry": 0.1725,
+      "exit": 0.1641,
+      "pnl": -101.11,
+      "r": -1.03,
+      "capital": 9718.0
+    },
+    {
+      "symbol": "ADAUSDT",
+      "entry": 0.172,
+      "exit": 0.1892,
+      "pnl": 221.1,
+      "r": 2.28,
+      "capital": 9936.12
+    },
+    {
+      "symbol": "ADAUSDT",
+      "entry": 0.209,
+      "exit": 0.1946,
+      "pnl": -101.37,
+      "r": -1.02,
+      "capital": 9832.58
+    },
+    {
+      "symbol": "ADAUSDT",
+      "entry": 0.1796,
+      "exit": 0.2177,
+      "pnl": 292.34,
+      "r": 2.97,
+      "capital": 10121.04
+    },
+    {
+      "symbol": "ADAUSDT",
+      "entry": 0.2047,
+      "exit": 0.21,
+      "pnl": 126.64,
+      "r": 1.25,
+      "capital": 10244.33
+    },
+    {
+      "symbol": "ADAUSDT",
+      "entry": 0.2293,
+      "exit": 0.2144,
+      "pnl": -104.65,
+      "r": -1.02,
+      "capital": 10137.33
+    },
+    {
+      "symbol": "ADAUSDT",
+      "entry": 0.2165,
+      "exit": 0.2426,
+      "pnl": 236.27,
+      "r": 2.33,
+      "capital": 10370.67
+    },
+    {
+      "symbol": "ADAUSDT",
+      "entry": 0.2564,
+      "exit": 0.2424,
+      "pnl": -106.39,
+      "r": -1.03,
+      "capital": 10261.44
+    },
+    {
+      "symbol": "ADAUSDT",
+      "entry": 0.2555,
+      "exit": 0.242,
+      "pnl": -105.37,
+      "r": -1.03,
+      "capital": 10153.15
+    },
+    {
+      "symbol": "ADAUSDT",
+      "entry": 0.2597,
+      "exit": 0.2435,
+      "pnl": -103.82,
+      "r": -1.02,
+      "capital": 10046.88
+    },
+    {
+      "symbol": "ADAUSDT",
+      "entry": 0.2547,
+      "exit": 0.2421,
+      "pnl": -103.37,
+      "r": -1.03,
+      "capital": 9940.45
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "entry": 0.0725,
+      "exit": 0.0891,
+      "pnl": 353.65,
+      "r": 3.56,
+      "capital": 10288.51
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "entry": 0.0892,
+      "exit": 0.0852,
+      "pnl": -106.15,
+      "r": -1.03,
+      "capital": 10178.95
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "entry": 0.0908,
+      "exit": 0.0861,
+      "pnl": -104.59,
+      "r": -1.03,
+      "capital": 10071.4
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "entry": 0.0853,
+      "exit": 0.096,
+      "pnl": 246.24,
+      "r": 2.44,
+      "capital": 10314.11
+    },
+    {
+      "symbol": "AVAXUSDT",
+      "entry": 7.012,
+      "exit": 6.7777,
+      "pnl": -107.62,
+      "r": -1.04,
+      "capital": 10201.86
+    },
+    {
+      "symbol": "AVAXUSDT",
+      "entry": 6.712,
+      "exit": 6.4551,
+      "pnl": -105.86,
+      "r": -1.04,
+      "capital": 10092.0
+    },
+    {
+      "symbol": "AVAXUSDT",
+      "entry": 6.612,
+      "exit": 6.3148,
+      "pnl": -104.14,
+      "r": -1.03,
+      "capital": 9984.5
+    },
+    {
+      "symbol": "AVAXUSDT",
+      "entry": 6.769,
+      "exit": 6.4858,
+      "pnl": -103.28,
+      "r": -1.03,
+      "capital": 9877.64
+    },
+    {
+      "symbol": "AVAXUSDT",
+      "entry": 6.56,
+      "exit": 7.2036,
+      "pnl": 233.81,
+      "r": 2.37,
+      "capital": 10107.6
+    },
+    {
+      "symbol": "AVAXUSDT",
+      "entry": 7.61,
+      "exit": 10.6952,
+      "pnl": 271.95,
+      "r": 2.69,
+      "capital": 10378.03
+    },
+    {
+      "symbol": "AVAXUSDT",
+      "entry": 11.161,
+      "exit": 10.4201,
+      "pnl": -105.97,
+      "r": -1.02,
+      "capital": 10269.72
+    },
+    {
+      "symbol": "AVAXUSDT",
+      "entry": 11.458,
+      "exit": 10.4006,
+      "pnl": -104.21,
+      "r": -1.01,
+      "capital": 10163.84
+    },
+    {
+      "symbol": "AVAXUSDT",
+      "entry": 10.888,
+      "exit": 10.4349,
+      "pnl": -105.15,
+      "r": -1.03,
+      "capital": 10055.02
+    },
+    {
+      "symbol": "DOTUSDT",
+      "entry": 0.8401,
+      "exit": 0.8128,
+      "pnl": -105.05,
+      "r": -1.04,
+      "capital": 9945.33
+    },
+    {
+      "symbol": "DOTUSDT",
+      "entry": 0.8198,
+      "exit": 0.8815,
+      "pnl": 219.25,
+      "r": 2.2,
+      "capital": 10161.19
+    },
+    {
+      "symbol": "DOTUSDT",
+      "entry": 0.8699,
+      "exit": 1.095,
+      "pnl": 303.88,
+      "r": 2.99,
+      "capital": 10461.75
+    },
+    {
+      "symbol": "DOTUSDT",
+      "entry": 1.0164,
+      "exit": 1.0944,
+      "pnl": 178.65,
+      "r": 1.71,
+      "capital": 10637.38
+    },
+    {
+      "symbol": "DOTUSDT",
+      "entry": 1.1657,
+      "exit": 1.0897,
+      "pnl": -108.66,
+      "r": -1.02,
+      "capital": 10526.27
+    },
+    {
+      "symbol": "DOTUSDT",
+      "entry": 1.2154,
+      "exit": 1.1423,
+      "pnl": -107.73,
+      "r": -1.02,
+      "capital": 10415.91
+    },
+    {
+      "symbol": "DOTUSDT",
+      "entry": 1.2316,
+      "exit": 1.1683,
+      "pnl": -107.04,
+      "r": -1.03,
+      "capital": 10305.83
+    },
+    {
+      "symbol": "DOTUSDT",
+      "entry": 1.2368,
+      "exit": 1.1453,
+      "pnl": -104.99,
+      "r": -1.02,
+      "capital": 10198.75
+    },
+    {
+      "symbol": "LINKUSDT",
+      "entry": 7.975,
+      "exit": 7.7261,
+      "pnl": -106.74,
+      "r": -1.05,
+      "capital": 10087.12
+    },
+    {
+      "symbol": "LINKUSDT",
+      "entry": 7.99,
+      "exit": 7.8061,
+      "pnl": -107.29,
+      "r": -1.06,
+      "capital": 9973.25
+    },
+    {
+      "symbol": "LINKUSDT",
+      "entry": 8.298,
+      "exit": 8.5655,
+      "pnl": 139.55,
+      "r": 1.4,
+      "capital": 10108.69
+    },
+    {
+      "symbol": "LINKUSDT",
+      "entry": 8.33,
+      "exit": 9.3466,
+      "pnl": 286.16,
+      "r": 2.83,
+      "capital": 10388.65
+    },
+    {
+      "symbol": "LINKUSDT",
+      "entry": 9.703,
+      "exit": 11.2113,
+      "pnl": 298.01,
+      "r": 2.87,
+      "capital": 10681.54
+    },
+    {
+      "symbol": "LINKUSDT",
+      "entry": 11.928,
+      "exit": 11.402,
+      "pnl": -110.29,
+      "r": -1.03,
+      "capital": 10567.62
+    },
+    {
+      "symbol": "LINKUSDT",
+      "entry": 11.786,
+      "exit": 12.4802,
+      "pnl": 225.47,
+      "r": 2.13,
+      "capital": 10789.44
+    },
+    {
+      "symbol": "LINKUSDT",
+      "entry": 11.83,
+      "exit": 12.7587,
+      "pnl": 195.6,
+      "r": 1.81,
+      "capital": 10981.54
+    },
+    {
+      "symbol": "LINKUSDT",
+      "entry": 13.269,
+      "exit": 14.4655,
+      "pnl": 239.19,
+      "r": 2.18,
+      "capital": 11217.92
+    },
+    {
+      "symbol": "LINKUSDT",
+      "entry": 13.359,
+      "exit": 12.927,
+      "pnl": -117.21,
+      "r": -1.04,
+      "capital": 11095.5
+    },
+    {
+      "symbol": "UNIUSDT",
+      "entry": 3.017,
+      "exit": 3.0573,
+      "pnl": 212.21,
+      "r": 1.91,
+      "capital": 11305.52
+    },
+    {
+      "symbol": "UNIUSDT",
+      "entry": 2.977,
+      "exit": 2.7685,
+      "pnl": -115.31,
+      "r": -1.02,
+      "capital": 11187.79
+    },
+    {
+      "symbol": "UNIUSDT",
+      "entry": 3.046,
+      "exit": 3.5646,
+      "pnl": 265.3,
+      "r": 2.37,
+      "capital": 11450.64
+    },
+    {
+      "symbol": "UNIUSDT",
+      "entry": 3.71,
+      "exit": 3.8326,
+      "pnl": 157.64,
+      "r": 1.38,
+      "capital": 11603.94
+    },
+    {
+      "symbol": "UNIUSDT",
+      "entry": 4.05,
+      "exit": 4.1712,
+      "pnl": 141.83,
+      "r": 1.22,
+      "capital": 11742.88
+    },
+    {
+      "symbol": "UNIUSDT",
+      "entry": 3.636,
+      "exit": 3.8108,
+      "pnl": 239.49,
+      "r": 2.04,
+      "capital": 11979.28
+    },
+    {
+      "symbol": "UNIUSDT",
+      "entry": 4.183,
+      "exit": 6.7676,
+      "pnl": 354.33,
+      "r": 2.96,
+      "capital": 12332.04
+    },
+    {
+      "symbol": "UNIUSDT",
+      "entry": 6.69,
+      "exit": 6.2187,
+      "pnl": -125.76,
+      "r": -1.02,
+      "capital": 12203.65
+    },
+    {
+      "symbol": "UNIUSDT",
+      "entry": 6.792,
+      "exit": 8.6753,
+      "pnl": 306.33,
+      "r": 2.51,
+      "capital": 12507.9
+    },
+    {
+      "symbol": "UNIUSDT",
+      "entry": 9.178,
+      "exit": 8.2949,
+      "pnl": -126.84,
+      "r": -1.01,
+      "capital": 12379.11
+    },
+    {
+      "symbol": "ATOMUSDT",
+      "entry": 1.934,
+      "exit": 1.8121,
+      "pnl": -126.55,
+      "r": -1.02,
+      "capital": 12249.61
+    },
+    {
+      "symbol": "ATOMUSDT",
+      "entry": 1.437,
+      "exit": 1.397,
+      "pnl": -128.91,
+      "r": -1.05,
+      "capital": 12114.11
+    },
+    {
+      "symbol": "ATOMUSDT",
+      "entry": 1.456,
+      "exit": 1.3948,
+      "pnl": -125.29,
+      "r": -1.03,
+      "capital": 11984.5
+    },
+    {
+      "symbol": "ATOMUSDT",
+      "entry": 1.493,
+      "exit": 1.5264,
+      "pnl": 235.45,
+      "r": 1.96,
+      "capital": 12215.87
+    },
+    {
+      "symbol": "ATOMUSDT",
+      "entry": 1.597,
+      "exit": 1.461,
+      "pnl": -124.13,
+      "r": -1.02,
+      "capital": 12089.59
+    },
+    {
+      "symbol": "ATOMUSDT",
+      "entry": 1.523,
+      "exit": 1.4763,
+      "pnl": -126.63,
+      "r": -1.05,
+      "capital": 11957.04
+    },
+    {
+      "symbol": "ATOMUSDT",
+      "entry": 1.554,
+      "exit": 1.7701,
+      "pnl": 310.17,
+      "r": 2.59,
+      "capital": 12262.46
+    },
+    {
+      "symbol": "ATOMUSDT",
+      "entry": 1.643,
+      "exit": 1.7461,
+      "pnl": 202.75,
+      "r": 1.65,
+      "capital": 12461.17
+    },
+    {
+      "symbol": "ATOMUSDT",
+      "entry": 1.846,
+      "exit": 1.7374,
+      "pnl": -127.6,
+      "r": -1.02,
+      "capital": 12330.39
+    },
+    {
+      "symbol": "ATOMUSDT",
+      "entry": 1.881,
+      "exit": 1.79,
+      "pnl": -126.94,
+      "r": -1.03,
+      "capital": 12199.62
+    },
+    {
+      "symbol": "ATOMUSDT",
+      "entry": 1.771,
+      "exit": 1.6929,
+      "pnl": -125.97,
+      "r": -1.03,
+      "capital": 12069.51
+    },
+    {
+      "symbol": "LTCUSDT",
+      "entry": 45.18,
+      "exit": 43.7747,
+      "pnl": -126.31,
+      "r": -1.05,
+      "capital": 11935.22
+    },
+    {
+      "symbol": "LTCUSDT",
+      "entry": 45.03,
+      "exit": 44.1288,
+      "pnl": -128.12,
+      "r": -1.07,
+      "capital": 11798.16
+    },
+    {
+      "symbol": "LTCUSDT",
+      "entry": 45.41,
+      "exit": 46.9654,
+      "pnl": 179.25,
+      "r": 1.52,
+      "capital": 11971.5
+    },
+    {
+      "symbol": "LTCUSDT",
+      "entry": 47.76,
+      "exit": 46.7061,
+      "pnl": -127.67,
+      "r": -1.07,
+      "capital": 11835.69
+    },
+    {
+      "symbol": "LTCUSDT",
+      "entry": 45.71,
+      "exit": 44.8125,
+      "pnl": -127.22,
+      "r": -1.07,
+      "capital": 11699.42
+    },
+    {
+      "symbol": "LTCUSDT",
+      "entry": 45.7,
+      "exit": 51.4046,
+      "pnl": 347.45,
+      "r": 2.97,
+      "capital": 12038.84
+    },
+    {
+      "symbol": "LTCUSDT",
+      "entry": 50.12,
+      "exit": 54.3202,
+      "pnl": 290.24,
+      "r": 2.41,
+      "capital": 12322.99
+    },
+    {
+      "symbol": "LTCUSDT",
+      "entry": 54.08,
+      "exit": 52.5587,
+      "pnl": -129.62,
+      "r": -1.05,
+      "capital": 12186.8
+    },
+    {
+      "symbol": "LTCUSDT",
+      "entry": 54.72,
+      "exit": 60.738,
+      "pnl": 314.43,
+      "r": 2.58,
+      "capital": 12495.14
+    },
+    {
+      "symbol": "LTCUSDT",
+      "entry": 66.61,
+      "exit": 61.3876,
+      "pnl": -127.15,
+      "r": -1.02,
+      "capital": 12365.59
+    },
+    {
+      "symbol": "LTCUSDT",
+      "entry": 65.01,
+      "exit": 63.413,
+      "pnl": -131.02,
+      "r": -1.06,
+      "capital": 12227.02
+    },
+    {
+      "symbol": "NEARUSDT",
+      "entry": 2.628,
+      "exit": 2.2836,
+      "pnl": -123.49,
+      "r": -1.01,
+      "capital": 12102.13
+    },
+    {
+      "symbol": "NEARUSDT",
+      "entry": 2.19,
+      "exit": 1.9528,
+      "pnl": -122.52,
+      "r": -1.01,
+      "capital": 11977.94
+    },
+    {
+      "symbol": "NEARUSDT",
+      "entry": 2.18,
+      "exit": 2.2936,
+      "pnl": 157.49,
+      "r": 1.31,
+      "capital": 12133.11
+    },
+    {
+      "symbol": "NEARUSDT",
+      "entry": 2.015,
+      "exit": 1.8967,
+      "pnl": -124.25,
+      "r": -1.02,
+      "capital": 12005.77
+    },
+    {
+      "symbol": "NEARUSDT",
+      "entry": 1.993,
+      "exit": 1.8908,
+      "pnl": -123.39,
+      "r": -1.03,
+      "capital": 11878.87
+    },
+    {
+      "symbol": "NEARUSDT",
+      "entry": 2.024,
+      "exit": 1.9479,
+      "pnl": -123.35,
+      "r": -1.04,
+      "capital": 11750.78
+    },
+    {
+      "symbol": "NEARUSDT",
+      "entry": 1.731,
+      "exit": 1.8231,
+      "pnl": 244.16,
+      "r": 2.08,
+      "capital": 11991.46
+    },
+    {
+      "symbol": "NEARUSDT",
+      "entry": 1.994,
+      "exit": 2.395,
+      "pnl": 207.43,
+      "r": 1.73,
+      "capital": 12197.55
+    },
+    {
+      "symbol": "NEARUSDT",
+      "entry": 2.619,
+      "exit": 2.3191,
+      "pnl": -123.39,
+      "r": -1.01,
+      "capital": 12072.57
+    },
+    {
+      "symbol": "NEARUSDT",
+      "entry": 2.62,
+      "exit": 4.1945,
+      "pnl": 411.47,
+      "r": 3.41,
+      "capital": 12481.73
+    },
+    {
+      "symbol": "NEARUSDT",
+      "entry": 4.218,
+      "exit": 5.0153,
+      "pnl": 197.55,
+      "r": 1.58,
+      "capital": 12678.1
+    },
+    {
+      "symbol": "NEARUSDT",
+      "entry": 5.166,
+      "exit": 4.791,
+      "pnl": -129.21,
+      "r": -1.02,
+      "capital": 12546.27
+    },
+    {
+      "symbol": "NEARUSDT",
+      "entry": 5.79,
+      "exit": 5.3194,
+      "pnl": -127.59,
+      "r": -1.02,
+      "capital": 12416.36
+    },
+    {
+      "symbol": "AAVEUSDT",
+      "entry": 77.62,
+      "exit": 72.9393,
+      "pnl": -127.07,
+      "r": -1.02,
+      "capital": 12286.21
+    },
+    {
+      "symbol": "AAVEUSDT",
+      "entry": 75.88,
+      "exit": 89.2243,
+      "pnl": 292.44,
+      "r": 2.38,
+      "capital": 12576.0
+    },
+    {
+      "symbol": "AAVEUSDT",
+      "entry": 91.65,
+      "exit": 85.9461,
+      "pnl": -128.6,
+      "r": -1.02,
+      "capital": 12444.37
+    },
+    {
+      "symbol": "AAVEUSDT",
+      "entry": 96.37,
+      "exit": 91.166,
+      "pnl": -127.71,
+      "r": -1.03,
+      "capital": 12313.2
+    },
+    {
+      "symbol": "AAVEUSDT",
+      "entry": 92.6,
+      "exit": 97.0697,
+      "pnl": 195.36,
+      "r": 1.59,
+      "capital": 12503.75
+    },
+    {
+      "symbol": "AAVEUSDT",
+      "entry": 92.2,
+      "exit": 89.5822,
+      "pnl": -131.46,
+      "r": -1.05,
+      "capital": 12365.69
+    },
+    {
+      "symbol": "AAVEUSDT",
+      "entry": 92.96,
+      "exit": 127.457,
+      "pnl": 459.16,
+      "r": 3.71,
+      "capital": 12820.21
+    },
+    {
+      "symbol": "AAVEUSDT",
+      "entry": 129.3,
+      "exit": 122.0207,
+      "pnl": -131.43,
+      "r": -1.03,
+      "capital": 12685.37
+    },
+    {
+      "symbol": "AAVEUSDT",
+      "entry": 131.14,
+      "exit": 124.9662,
+      "pnl": -130.71,
+      "r": -1.03,
+      "capital": 12550.62
+    },
+    {
+      "symbol": "AAVEUSDT",
+      "entry": 134.76,
+      "exit": 143.4118,
+      "pnl": 193.08,
+      "r": 1.54,
+      "capital": 12740.37
+    },
+    {
+      "symbol": "AAVEUSDT",
+      "entry": 153.52,
+      "exit": 157.7113,
+      "pnl": 150.99,
+      "r": 1.19,
+      "capital": 12888.43
+    },
+    {
+      "symbol": "AAVEUSDT",
+      "entry": 176.74,
+      "exit": 163.4012,
+      "pnl": -131.25,
+      "r": -1.02,
+      "capital": 12754.61
+    },
+    {
+      "symbol": "FILUSDT",
+      "entry": 0.8065,
+      "exit": 0.7741,
+      "pnl": -132.12,
+      "r": -1.04,
+      "capital": 12617.73
+    },
+    {
+      "symbol": "FILUSDT",
+      "entry": 0.8131,
+      "exit": 0.777,
+      "pnl": -130.25,
+      "r": -1.03,
+      "capital": 12483.23
+    },
+    {
+      "symbol": "FILUSDT",
+      "entry": 0.7942,
+      "exit": 0.7659,
+      "pnl": -129.9,
+      "r": -1.04,
+      "capital": 12348.07
+    },
+    {
+      "symbol": "FILUSDT",
+      "entry": 0.7229,
+      "exit": 0.7382,
+      "pnl": 139.34,
+      "r": 1.13,
+      "capital": 12484.75
+    },
+    {
+      "symbol": "FILUSDT",
+      "entry": 0.7859,
+      "exit": 0.6942,
+      "pnl": -126.27,
+      "r": -1.01,
+      "capital": 12356.88
+    },
+    {
+      "symbol": "FILUSDT",
+      "entry": 0.7881,
+      "exit": 0.8192,
+      "pnl": 245.13,
+      "r": 1.98,
+      "capital": 12599.49
+    },
+    {
+      "symbol": "FILUSDT",
+      "entry": 0.9475,
+      "exit": 0.8628,
+      "pnl": -127.92,
+      "r": -1.02,
+      "capital": 12469.45
+    },
+    {
+      "symbol": "FILUSDT",
+      "entry": 0.9172,
+      "exit": 0.9261,
+      "pnl": 237.34,
+      "r": 1.9,
+      "capital": 12704.13
+    },
+    {
+      "symbol": "FILUSDT",
+      "entry": 1.0755,
+      "exit": 1.0898,
+      "pnl": 136.4,
+      "r": 1.07,
+      "capital": 12837.74
+    },
+    {
+      "symbol": "FILUSDT",
+      "entry": 1.0877,
+      "exit": 1.1163,
+      "pnl": 161.18,
+      "r": 1.26,
+      "capital": 12994.66
+    },
+    {
+      "symbol": "FILUSDT",
+      "entry": 1.1981,
+      "exit": 1.0935,
+      "pnl": -131.98,
+      "r": -1.02,
+      "capital": 12860.44
+    },
+    {
+      "symbol": "FILUSDT",
+      "entry": 1.193,
+      "exit": 1.0924,
+      "pnl": -130.7,
+      "r": -1.02,
+      "capital": 12727.46
+    },
+    {
+      "symbol": "SANDUSDT",
+      "entry": 0.0606,
+      "exit": 0.0552,
+      "pnl": -129.21,
+      "r": -1.02,
+      "capital": 12596.12
+    },
+    {
+      "symbol": "SANDUSDT",
+      "entry": 0.0428,
+      "exit": 0.0439,
+      "pnl": 248.99,
+      "r": 1.98,
+      "capital": 12840.97
+    },
+    {
+      "symbol": "SANDUSDT",
+      "entry": 0.0485,
+      "exit": 0.042,
+      "pnl": -129.64,
+      "r": -1.01,
+      "capital": 12709.9
+    },
+    {
+      "symbol": "SANDUSDT",
+      "entry": 0.0387,
+      "exit": 0.0418,
+      "pnl": 288.59,
+      "r": 2.27,
+      "capital": 12993.66
+    },
+    {
+      "symbol": "SANDUSDT",
+      "entry": 0.0452,
+      "exit": 0.042,
+      "pnl": -132.46,
+      "r": -1.02,
+      "capital": 12858.48
+    },
+    {
+      "symbol": "SANDUSDT",
+      "entry": 0.0452,
+      "exit": 0.0456,
+      "pnl": 244.12,
+      "r": 1.9,
+      "capital": 13099.61
+    },
+    {
+      "symbol": "SANDUSDT",
+      "entry": 0.0607,
+      "exit": 0.0693,
+      "pnl": 185.98,
+      "r": 1.42,
+      "capital": 13284.4
+    },
+    {
+      "symbol": "SANDUSDT",
+      "entry": 0.0844,
+      "exit": 0.072,
+      "pnl": -134.0,
+      "r": -1.01,
+      "capital": 13149.04
+    },
+    {
+      "symbol": "MANAUSDT",
+      "entry": 0.0778,
+      "exit": 0.0723,
+      "pnl": -134.09,
+      "r": -1.02,
+      "capital": 13012.15
+    },
+    {
+      "symbol": "MANAUSDT",
+      "entry": 0.0735,
+      "exit": 0.0671,
+      "pnl": -132.17,
+      "r": -1.02,
+      "capital": 12877.74
+    },
+    {
+      "symbol": "MANAUSDT",
+      "entry": 0.074,
+      "exit": 0.0695,
+      "pnl": -131.71,
+      "r": -1.02,
+      "capital": 12742.9
+    },
+    {
+      "symbol": "MANAUSDT",
+      "entry": 0.0723,
+      "exit": 0.0692,
+      "pnl": -131.59,
+      "r": -1.03,
+      "capital": 12606.96
+    },
+    {
+      "symbol": "MANAUSDT",
+      "entry": 0.0666,
+      "exit": 0.0726,
+      "pnl": 296.31,
+      "r": 2.35,
+      "capital": 12898.02
+    },
+    {
+      "symbol": "MANAUSDT",
+      "entry": 0.0771,
+      "exit": 0.0737,
+      "pnl": -133.12,
+      "r": -1.03,
+      "capital": 12760.56
+    },
+    {
+      "symbol": "MANAUSDT",
+      "entry": 0.0741,
+      "exit": 0.0712,
+      "pnl": -132.39,
+      "r": -1.04,
+      "capital": 12623.2
+    },
+    {
+      "symbol": "MANAUSDT",
+      "entry": 0.0771,
+      "exit": 0.0737,
+      "pnl": -130.31,
+      "r": -1.03,
+      "capital": 12488.62
+    },
+    {
+      "symbol": "MANAUSDT",
+      "entry": 0.0767,
+      "exit": 0.0852,
+      "pnl": 304.14,
+      "r": 2.44,
+      "capital": 12787.86
+    },
+    {
+      "symbol": "MANAUSDT",
+      "entry": 0.0891,
+      "exit": 0.0903,
+      "pnl": 139.34,
+      "r": 1.09,
+      "capital": 12923.87
+    },
+    {
+      "symbol": "MANAUSDT",
+      "entry": 0.1008,
+      "exit": 0.0912,
+      "pnl": -131.08,
+      "r": -1.01,
+      "capital": 12790.75
+    },
+    {
+      "symbol": "MANAUSDT",
+      "entry": 0.0988,
+      "exit": 0.0947,
+      "pnl": -132.38,
+      "r": -1.03,
+      "capital": 12653.7
+    },
+    {
+      "symbol": "ALGOUSDT",
+      "entry": 0.0846,
+      "exit": 0.088,
+      "pnl": 191.0,
+      "r": 1.51,
+      "capital": 12839.41
+    },
+    {
+      "symbol": "ALGOUSDT",
+      "entry": 0.0833,
+      "exit": 0.0902,
+      "pnl": 301.33,
+      "r": 2.35,
+      "capital": 13135.01
+    },
+    {
+      "symbol": "ALGOUSDT",
+      "entry": 0.0905,
+      "exit": 0.0974,
+      "pnl": 289.33,
+      "r": 2.2,
+      "capital": 13419.96
+    },
+    {
+      "symbol": "ALGOUSDT",
+      "entry": 0.0946,
+      "exit": 0.0883,
+      "pnl": -137.02,
+      "r": -1.02,
+      "capital": 13279.91
+    },
+    {
+      "symbol": "ALGOUSDT",
+      "entry": 0.0979,
+      "exit": 0.1089,
+      "pnl": 303.4,
+      "r": 2.28,
+      "capital": 13579.63
+    },
+    {
+      "symbol": "ALGOUSDT",
+      "entry": 0.112,
+      "exit": 0.1173,
+      "pnl": 182.77,
+      "r": 1.35,
+      "capital": 13759.17
+    },
+    {
+      "symbol": "ALGOUSDT",
+      "entry": 0.1312,
+      "exit": 0.1185,
+      "pnl": -139.53,
+      "r": -1.01,
+      "capital": 13617.5
+    },
+    {
+      "symbol": "ALGOUSDT",
+      "entry": 0.1329,
+      "exit": 0.1187,
+      "pnl": -137.89,
+      "r": -1.01,
+      "capital": 13477.69
+    },
+    {
+      "symbol": "ALGOUSDT",
+      "entry": 0.133,
+      "exit": 0.1237,
+      "pnl": -137.48,
+      "r": -1.02,
+      "capital": 13337.29
+    }
+  ]
+}
