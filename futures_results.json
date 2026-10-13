@@ -1,18 +1,18 @@
 {
   "metrics": {
     "initial_capital": 10000,
-    "final_capital": 19341.34,
-    "return_pct": 93.41,
-    "total_pnl_usd": 13176.87,
-    "total_trades": 734,
-    "win_rate_pct": 38.1,
-    "profit_factor": 1.19,
-    "avg_win_R": 2.04,
+    "final_capital": 20944.6,
+    "return_pct": 109.45,
+    "total_pnl_usd": 13677.47,
+    "total_trades": 594,
+    "win_rate_pct": 39.1,
+    "profit_factor": 1.27,
+    "avg_win_R": 2.06,
     "avg_loss_R": 1.04,
-    "expectancy_R": 0.139,
-    "sqn": 2.44,
+    "expectancy_R": 0.173,
+    "sqn": 2.69,
     "sqn_grade": "Хорошая",
-    "max_drawdown_pct": 22.18
+    "max_drawdown_pct": 17.76
   },
   "trades": [
     {
@@ -5110,1516 +5110,256 @@
       "capital": 20348.3
     },
     {
-      "symbol": "ORDIUSDT",
-      "side": "long",
-      "entry": 4.132,
-      "exit": 3.982,
-      "pnl": -209.15,
-      "r": -1.03,
-      "capital": 20133.26
-    },
-    {
-      "symbol": "ORDIUSDT",
-      "side": "long",
-      "entry": 4.097,
-      "exit": 4.1333,
-      "pnl": 233.58,
-      "r": 1.16,
-      "capital": 20356.74
-    },
-    {
-      "symbol": "ORDIUSDT",
-      "side": "long",
-      "entry": 4.153,
-      "exit": 4.0485,
-      "pnl": -211.85,
-      "r": -1.04,
-      "capital": 20136.39
-    },
-    {
-      "symbol": "ORDIUSDT",
-      "side": "long",
-      "entry": 4.117,
-      "exit": 4.5936,
-      "pnl": 503.42,
-      "r": 2.5,
-      "capital": 20634.05
-    },
-    {
-      "symbol": "ORDIUSDT",
-      "side": "long",
-      "entry": 4.618,
-      "exit": 4.8433,
-      "pnl": 451.95,
-      "r": 2.19,
-      "capital": 21078.71
-    },
-    {
-      "symbol": "ORDIUSDT",
-      "side": "long",
-      "entry": 4.889,
-      "exit": 4.7127,
-      "pnl": -216.7,
-      "r": -1.03,
-      "capital": 20855.87
-    },
-    {
-      "symbol": "ORDIUSDT",
-      "side": "long",
-      "entry": 4.601,
-      "exit": 4.8214,
-      "pnl": 442.24,
-      "r": 2.12,
-      "capital": 21292.39
-    },
-    {
-      "symbol": "ORDIUSDT",
-      "side": "long",
-      "entry": 4.937,
-      "exit": 4.7931,
-      "pnl": -220.37,
-      "r": -1.03,
-      "capital": 21064.35
-    },
-    {
-      "symbol": "ORDIUSDT",
-      "side": "long",
-      "entry": 4.794,
-      "exit": 4.6622,
-      "pnl": -218.47,
-      "r": -1.04,
-      "capital": 20837.84
-    },
-    {
-      "symbol": "ORDIUSDT",
-      "side": "long",
-      "entry": 4.637,
-      "exit": 4.4879,
-      "pnl": -214.96,
-      "r": -1.03,
-      "capital": 20616.07
-    },
-    {
-      "symbol": "ORDIUSDT",
-      "side": "long",
-      "entry": 4.685,
-      "exit": 4.572,
-      "pnl": -214.92,
-      "r": -1.04,
-      "capital": 20392.18
-    },
-    {
-      "symbol": "ORDIUSDT",
-      "side": "long",
-      "entry": 4.613,
-      "exit": 4.5227,
-      "pnl": -214.64,
-      "r": -1.05,
-      "capital": 20166.61
-    },
-    {
-      "symbol": "ORDIUSDT",
-      "side": "long",
-      "entry": 4.597,
-      "exit": 4.4967,
-      "pnl": -211.16,
-      "r": -1.05,
-      "capital": 19945.75
-    },
-    {
-      "symbol": "ORDIUSDT",
-      "side": "long",
-      "entry": 4.615,
-      "exit": 4.489,
-      "pnl": -206.92,
-      "r": -1.04,
-      "capital": 19731.16
-    },
-    {
-      "symbol": "ORDIUSDT",
-      "side": "long",
-      "entry": 4.567,
-      "exit": 4.411,
-      "pnl": -203.17,
-      "r": -1.03,
-      "capital": 19521.93
-    },
-    {
-      "symbol": "ORDIUSDT",
-      "side": "long",
-      "entry": 4.433,
-      "exit": 4.3033,
-      "pnl": -202.02,
-      "r": -1.03,
-      "capital": 19312.9
-    },
-    {
-      "symbol": "ORDIUSDT",
-      "side": "long",
-      "entry": 4.407,
-      "exit": 4.3173,
-      "pnl": -202.89,
-      "r": -1.05,
-      "capital": 19100.04
-    },
-    {
-      "symbol": "ORDIUSDT",
-      "side": "long",
-      "entry": 4.416,
-      "exit": 4.3315,
-      "pnl": -201.28,
-      "r": -1.05,
-      "capital": 18888.28
-    },
-    {
-      "symbol": "ACEUSDT",
-      "side": "long",
-      "entry": 0.1667,
-      "exit": 0.156,
-      "pnl": -191.78,
-      "r": -1.02,
-      "capital": 18693.4
-    },
-    {
-      "symbol": "ACEUSDT",
-      "side": "long",
-      "entry": 0.158,
-      "exit": 0.1539,
-      "pnl": -194.29,
-      "r": -1.04,
-      "capital": 18491.56
-    },
-    {
-      "symbol": "ACEUSDT",
-      "side": "long",
-      "entry": 0.1578,
-      "exit": 0.153,
-      "pnl": -191.14,
-      "r": -1.03,
-      "capital": 18293.99
-    },
-    {
-      "symbol": "ACEUSDT",
-      "side": "long",
-      "entry": 0.1733,
-      "exit": 0.1599,
-      "pnl": -185.24,
-      "r": -1.01,
-      "capital": 18106.27
-    },
-    {
-      "symbol": "ACEUSDT",
-      "side": "long",
-      "entry": 0.1623,
-      "exit": 0.1697,
-      "pnl": 388.41,
-      "r": 2.15,
-      "capital": 18488.81
-    },
-    {
-      "symbol": "ACEUSDT",
-      "side": "long",
-      "entry": 0.1756,
-      "exit": 0.1685,
-      "pnl": -189.51,
-      "r": -1.02,
-      "capital": 18294.5
-    },
-    {
-      "symbol": "ACEUSDT",
-      "side": "long",
-      "entry": 0.1742,
-      "exit": 0.1821,
-      "pnl": 398.63,
-      "r": 2.18,
-      "capital": 18686.37
-    },
-    {
-      "symbol": "ACEUSDT",
-      "side": "long",
-      "entry": 0.1976,
-      "exit": 0.1746,
-      "pnl": -188.35,
-      "r": -1.01,
-      "capital": 18496.33
-    },
-    {
-      "symbol": "ACEUSDT",
-      "side": "long",
-      "entry": 0.1859,
-      "exit": 0.1906,
-      "pnl": 232.21,
-      "r": 1.26,
-      "capital": 18724.22
-    },
-    {
-      "symbol": "ACEUSDT",
-      "side": "long",
-      "entry": 0.1962,
-      "exit": 0.2077,
-      "pnl": 407.99,
-      "r": 2.18,
-      "capital": 19126.99
-    },
-    {
-      "symbol": "ACEUSDT",
-      "side": "long",
-      "entry": 0.228,
-      "exit": 0.2061,
-      "pnl": -193.16,
-      "r": -1.01,
-      "capital": 18931.74
-    },
-    {
-      "symbol": "ACEUSDT",
-      "side": "long",
-      "entry": 0.1875,
-      "exit": 0.181,
-      "pnl": -194.82,
-      "r": -1.03,
-      "capital": 18731.21
-    },
-    {
-      "symbol": "ACEUSDT",
-      "side": "long",
-      "entry": 0.1878,
-      "exit": 0.1814,
-      "pnl": -192.9,
-      "r": -1.03,
-      "capital": 18532.53
-    },
-    {
-      "symbol": "ACEUSDT",
-      "side": "long",
-      "entry": 0.1902,
-      "exit": 0.1835,
-      "pnl": -190.69,
-      "r": -1.03,
-      "capital": 18336.29
-    },
-    {
-      "symbol": "ACEUSDT",
-      "side": "long",
-      "entry": 0.1912,
-      "exit": 0.1818,
-      "pnl": -187.07,
-      "r": -1.02,
-      "capital": 18145.32
-    },
-    {
-      "symbol": "ACEUSDT",
-      "side": "long",
-      "entry": 0.1874,
-      "exit": 0.1814,
-      "pnl": -187.25,
-      "r": -1.03,
-      "capital": 17952.09
-    },
-    {
-      "symbol": "ACEUSDT",
-      "side": "long",
-      "entry": 0.1866,
-      "exit": 0.1884,
-      "pnl": 211.19,
-      "r": 1.18,
-      "capital": 18154.27
-    },
-    {
-      "symbol": "ACEUSDT",
-      "side": "long",
-      "entry": 0.1929,
-      "exit": 0.1891,
-      "pnl": -191.07,
-      "r": -1.05,
-      "capital": 17953.48
-    },
-    {
-      "symbol": "ACEUSDT",
-      "side": "long",
-      "entry": 0.1933,
-      "exit": 0.1894,
-      "pnl": -188.78,
-      "r": -1.05,
-      "capital": 17755.27
-    },
-    {
-      "symbol": "ACEUSDT",
-      "side": "long",
-      "entry": 0.1967,
-      "exit": 0.1862,
-      "pnl": -180.86,
-      "r": -1.02,
-      "capital": 17570.92
-    },
-    {
-      "symbol": "ACEUSDT",
-      "side": "long",
-      "entry": 0.1934,
-      "exit": 0.1779,
-      "pnl": -177.83,
-      "r": -1.01,
-      "capital": 17390.78
-    },
-    {
-      "symbol": "ACEUSDT",
-      "side": "long",
-      "entry": 0.187,
-      "exit": 0.1796,
-      "pnl": -178.3,
-      "r": -1.03,
-      "capital": 17207.9
-    },
-    {
-      "symbol": "ALTUSDT",
-      "side": "long",
-      "entry": 0.0063,
-      "exit": 0.0064,
-      "pnl": 244.86,
-      "r": 1.42,
-      "capital": 17439.01
-    },
-    {
-      "symbol": "ALTUSDT",
-      "side": "long",
-      "entry": 0.0065,
-      "exit": 0.0064,
-      "pnl": -182.63,
-      "r": -1.05,
-      "capital": 17247.96
-    },
-    {
-      "symbol": "ALTUSDT",
-      "side": "long",
-      "entry": 0.0066,
-      "exit": 0.0061,
-      "pnl": -174.97,
-      "r": -1.01,
-      "capital": 17070.32
-    },
-    {
-      "symbol": "ALTUSDT",
-      "side": "long",
-      "entry": 0.0065,
-      "exit": 0.007,
-      "pnl": 439.0,
-      "r": 2.57,
-      "capital": 17501.07
-    },
-    {
-      "symbol": "ALTUSDT",
-      "side": "long",
-      "entry": 0.0072,
-      "exit": 0.007,
-      "pnl": -181.92,
-      "r": -1.04,
-      "capital": 17312.05
-    },
-    {
-      "symbol": "ALTUSDT",
-      "side": "long",
-      "entry": 0.0072,
-      "exit": 0.0075,
-      "pnl": 383.2,
-      "r": 2.21,
-      "capital": 17687.73
-    },
-    {
-      "symbol": "ALTUSDT",
-      "side": "long",
-      "entry": 0.0076,
-      "exit": 0.0074,
-      "pnl": -183.41,
-      "r": -1.04,
-      "capital": 17497.61
-    },
-    {
-      "symbol": "ALTUSDT",
-      "side": "long",
-      "entry": 0.0076,
-      "exit": 0.0079,
-      "pnl": 291.94,
-      "r": 1.67,
-      "capital": 17782.63
-    },
-    {
-      "symbol": "ALTUSDT",
-      "side": "long",
-      "entry": 0.0075,
-      "exit": 0.008,
-      "pnl": 329.76,
-      "r": 1.85,
-      "capital": 18106.97
-    },
-    {
-      "symbol": "ALTUSDT",
-      "side": "long",
-      "entry": 0.0082,
-      "exit": 0.008,
-      "pnl": -188.74,
-      "r": -1.04,
-      "capital": 17910.36
-    },
-    {
-      "symbol": "ALTUSDT",
-      "side": "long",
-      "entry": 0.0082,
-      "exit": 0.008,
-      "pnl": -187.29,
-      "r": -1.05,
-      "capital": 17714.71
-    },
-    {
-      "symbol": "ALTUSDT",
-      "side": "long",
-      "entry": 0.0079,
-      "exit": 0.0077,
-      "pnl": -184.09,
-      "r": -1.04,
-      "capital": 17523.49
-    },
-    {
-      "symbol": "ALTUSDT",
-      "side": "long",
-      "entry": 0.0077,
-      "exit": 0.0079,
-      "pnl": 248.36,
-      "r": 1.42,
-      "capital": 17765.73
-    },
-    {
-      "symbol": "ALTUSDT",
-      "side": "long",
-      "entry": 0.0079,
-      "exit": 0.0077,
-      "pnl": -184.14,
-      "r": -1.04,
-      "capital": 17574.92
-    },
-    {
-      "symbol": "ALTUSDT",
-      "side": "long",
-      "entry": 0.0078,
-      "exit": 0.008,
-      "pnl": 249.07,
-      "r": 1.42,
-      "capital": 17819.08
-    },
-    {
-      "symbol": "ALTUSDT",
-      "side": "long",
-      "entry": 0.0082,
-      "exit": 0.008,
-      "pnl": -184.13,
-      "r": -1.03,
-      "capital": 17628.83
-    },
-    {
-      "symbol": "ALTUSDT",
-      "side": "long",
-      "entry": 0.008,
-      "exit": 0.0081,
-      "pnl": 334.71,
-      "r": 1.9,
-      "capital": 17955.11
-    },
-    {
-      "symbol": "ALTUSDT",
-      "side": "long",
-      "entry": 0.0083,
-      "exit": 0.0079,
-      "pnl": -183.89,
-      "r": -1.02,
-      "capital": 17766.7
-    },
-    {
-      "symbol": "ALTUSDT",
-      "side": "long",
-      "entry": 0.0083,
-      "exit": 0.0079,
-      "pnl": -180.69,
-      "r": -1.02,
-      "capital": 17582.8
-    },
-    {
-      "symbol": "DYMUSDT",
-      "side": "long",
-      "entry": 0.0149,
-      "exit": 0.0151,
-      "pnl": 342.09,
-      "r": 1.95,
-      "capital": 17918.59
-    },
-    {
-      "symbol": "DYMUSDT",
-      "side": "long",
-      "entry": 0.0151,
-      "exit": 0.0142,
-      "pnl": -182.41,
-      "r": -1.02,
-      "capital": 17732.76
-    },
-    {
-      "symbol": "DYMUSDT",
-      "side": "long",
-      "entry": 0.0148,
-      "exit": 0.0168,
-      "pnl": 465.11,
-      "r": 2.62,
-      "capital": 18192.84
-    },
-    {
-      "symbol": "DYMUSDT",
-      "side": "long",
-      "entry": 0.0173,
-      "exit": 0.0165,
-      "pnl": -185.71,
-      "r": -1.02,
-      "capital": 18003.15
-    },
-    {
-      "symbol": "DYMUSDT",
-      "side": "long",
-      "entry": 0.017,
-      "exit": 0.018,
-      "pnl": 269.98,
-      "r": 1.5,
-      "capital": 18269.71
-    },
-    {
-      "symbol": "DYMUSDT",
-      "side": "long",
-      "entry": 0.0184,
-      "exit": 0.019,
-      "pnl": 252.64,
-      "r": 1.38,
-      "capital": 18516.75
-    },
-    {
-      "symbol": "DYMUSDT",
-      "side": "long",
-      "entry": 0.0186,
-      "exit": 0.0197,
-      "pnl": 402.49,
-      "r": 2.17,
-      "capital": 18914.32
-    },
-    {
-      "symbol": "DYMUSDT",
-      "side": "long",
-      "entry": 0.0202,
-      "exit": 0.0191,
-      "pnl": -192.72,
-      "r": -1.02,
-      "capital": 18717.83
-    },
-    {
-      "symbol": "DYMUSDT",
-      "side": "long",
-      "entry": 0.0195,
-      "exit": 0.0187,
-      "pnl": -192.01,
-      "r": -1.03,
-      "capital": 18520.79
-    },
-    {
-      "symbol": "DYMUSDT",
-      "side": "long",
-      "entry": 0.0193,
-      "exit": 0.0197,
-      "pnl": 374.03,
-      "r": 2.02,
-      "capital": 18884.69
-    },
-    {
-      "symbol": "DYMUSDT",
-      "side": "long",
-      "entry": 0.0198,
-      "exit": 0.0193,
-      "pnl": -197.06,
-      "r": -1.04,
-      "capital": 18679.22
-    },
-    {
-      "symbol": "DYMUSDT",
-      "side": "long",
-      "entry": 0.0187,
-      "exit": 0.0182,
-      "pnl": -193.91,
-      "r": -1.04,
-      "capital": 18478.01
-    },
-    {
-      "symbol": "DYMUSDT",
-      "side": "long",
-      "entry": 0.0187,
-      "exit": 0.0207,
-      "pnl": 460.99,
-      "r": 2.49,
-      "capital": 18933.13
-    },
-    {
-      "symbol": "DYMUSDT",
-      "side": "long",
-      "entry": 0.0203,
-      "exit": 0.0192,
-      "pnl": -192.85,
-      "r": -1.02,
-      "capital": 18736.57
-    },
-    {
-      "symbol": "WUSDT",
-      "side": "long",
-      "entry": 0.0099,
-      "exit": 0.0097,
-      "pnl": -195.84,
-      "r": -1.05,
-      "capital": 18532.06
-    },
-    {
-      "symbol": "WUSDT",
-      "side": "long",
-      "entry": 0.0102,
-      "exit": 0.0099,
-      "pnl": -192.79,
-      "r": -1.04,
-      "capital": 18331.6
-    },
-    {
-      "symbol": "WUSDT",
-      "side": "long",
-      "entry": 0.0102,
-      "exit": 0.0099,
-      "pnl": -190.05,
-      "r": -1.04,
-      "capital": 18134.62
-    },
-    {
-      "symbol": "WUSDT",
+      "symbol": "ZKUSDT",
       "side": "long",
       "entry": 0.0098,
-      "exit": 0.0107,
-      "pnl": 456.08,
-      "r": 2.51,
-      "capital": 18584.22
+      "exit": 0.0096,
+      "pnl": -213.24,
+      "r": -1.05,
+      "capital": 20125.09
     },
     {
-      "symbol": "WUSDT",
+      "symbol": "ZKUSDT",
       "side": "long",
-      "entry": 0.0112,
-      "exit": 0.0107,
-      "pnl": -190.79,
-      "r": -1.03,
-      "capital": 18388.28
+      "entry": 0.0098,
+      "exit": 0.0095,
+      "pnl": -208.71,
+      "r": -1.04,
+      "capital": 19908.7
     },
     {
-      "symbol": "WUSDT",
+      "symbol": "ZKUSDT",
       "side": "long",
-      "entry": 0.0113,
-      "exit": 0.0117,
-      "pnl": 267.57,
-      "r": 1.46,
-      "capital": 18651.3
+      "entry": 0.0094,
+      "exit": 0.011,
+      "pnl": 601.52,
+      "r": 3.02,
+      "capital": 20503.35
     },
     {
-      "symbol": "WUSDT",
-      "side": "long",
-      "entry": 0.0118,
-      "exit": 0.0114,
-      "pnl": -192.94,
-      "r": -1.03,
-      "capital": 18451.74
-    },
-    {
-      "symbol": "WUSDT",
+      "symbol": "ZKUSDT",
       "side": "long",
       "entry": 0.0114,
-      "exit": 0.0126,
-      "pnl": 461.44,
-      "r": 2.5,
-      "capital": 18907.34
-    },
-    {
-      "symbol": "WUSDT",
-      "side": "long",
-      "entry": 0.0137,
-      "exit": 0.015,
-      "pnl": 418.76,
-      "r": 2.21,
-      "capital": 19322.41
-    },
-    {
-      "symbol": "WUSDT",
-      "side": "long",
-      "entry": 0.014,
-      "exit": 0.0133,
-      "pnl": -196.82,
-      "r": -1.02,
-      "capital": 19121.8
-    },
-    {
-      "symbol": "WUSDT",
-      "side": "long",
-      "entry": 0.0138,
-      "exit": 0.0132,
-      "pnl": -195.76,
-      "r": -1.02,
-      "capital": 18921.31
-    },
-    {
-      "symbol": "WUSDT",
-      "side": "long",
-      "entry": 0.0135,
-      "exit": 0.013,
-      "pnl": -194.3,
-      "r": -1.03,
-      "capital": 18721.73
-    },
-    {
-      "symbol": "WUSDT",
-      "side": "long",
-      "entry": 0.0137,
-      "exit": 0.0132,
-      "pnl": -192.33,
-      "r": -1.03,
-      "capital": 18524.08
-    },
-    {
-      "symbol": "WUSDT",
-      "side": "long",
-      "entry": 0.0138,
-      "exit": 0.0144,
-      "pnl": 396.01,
-      "r": 2.14,
-      "capital": 18914.54
-    },
-    {
-      "symbol": "WUSDT",
-      "side": "long",
-      "entry": 0.0146,
-      "exit": 0.0141,
-      "pnl": -194.7,
-      "r": -1.03,
-      "capital": 18714.09
-    },
-    {
-      "symbol": "WUSDT",
-      "side": "long",
-      "entry": 0.0147,
-      "exit": 0.0142,
-      "pnl": -192.78,
-      "r": -1.03,
-      "capital": 18515.46
-    },
-    {
-      "symbol": "WUSDT",
-      "side": "long",
-      "entry": 0.0146,
-      "exit": 0.0142,
-      "pnl": -191.87,
-      "r": -1.04,
-      "capital": 18316.68
-    },
-    {
-      "symbol": "WUSDT",
-      "side": "long",
-      "entry": 0.0147,
-      "exit": 0.016,
-      "pnl": 412.57,
-      "r": 2.25,
-      "capital": 18725.13
-    },
-    {
-      "symbol": "WUSDT",
-      "side": "long",
-      "entry": 0.0163,
-      "exit": 0.0169,
-      "pnl": 241.39,
-      "r": 1.29,
-      "capital": 18963.2
-    },
-    {
-      "symbol": "WUSDT",
-      "side": "long",
-      "entry": 0.0175,
-      "exit": 0.0254,
-      "pnl": 688.07,
-      "r": 3.63,
-      "capital": 19647.35
-    },
-    {
-      "symbol": "AEVOUSDT",
-      "side": "long",
-      "entry": 0.0225,
-      "exit": 0.0221,
-      "pnl": -208.44,
-      "r": -1.06,
-      "capital": 19426.73
-    },
-    {
-      "symbol": "AEVOUSDT",
-      "side": "long",
-      "entry": 0.0225,
-      "exit": 0.022,
-      "pnl": -203.11,
-      "r": -1.05,
-      "capital": 19214.56
-    },
-    {
-      "symbol": "AEVOUSDT",
-      "side": "long",
-      "entry": 0.0225,
-      "exit": 0.0221,
-      "pnl": -202.59,
-      "r": -1.05,
-      "capital": 19001.33
-    },
-    {
-      "symbol": "AEVOUSDT",
-      "side": "long",
-      "entry": 0.022,
-      "exit": 0.0244,
-      "pnl": 562.68,
-      "r": 2.96,
-      "capital": 19553.84
-    },
-    {
-      "symbol": "AEVOUSDT",
-      "side": "long",
-      "entry": 0.025,
-      "exit": 0.0243,
-      "pnl": -202.56,
-      "r": -1.04,
-      "capital": 19344.04
-    },
-    {
-      "symbol": "AEVOUSDT",
-      "side": "long",
-      "entry": 0.0241,
-      "exit": 0.0262,
-      "pnl": 483.59,
-      "r": 2.5,
-      "capital": 19819.83
-    },
-    {
-      "symbol": "AEVOUSDT",
-      "side": "long",
-      "entry": 0.0251,
-      "exit": 0.0244,
-      "pnl": -205.58,
-      "r": -1.04,
-      "capital": 19606.67
-    },
-    {
-      "symbol": "AEVOUSDT",
-      "side": "long",
-      "entry": 0.0253,
-      "exit": 0.0269,
-      "pnl": 362.54,
+      "exit": 0.0122,
+      "pnl": 379.11,
       "r": 1.85,
-      "capital": 19963.41
+      "capital": 20877.04
     },
     {
-      "symbol": "AEVOUSDT",
+      "symbol": "ZKUSDT",
       "side": "long",
-      "entry": 0.0256,
-      "exit": 0.0263,
-      "pnl": 289.31,
-      "r": 1.45,
-      "capital": 20245.06
+      "entry": 0.0115,
+      "exit": 0.0128,
+      "pnl": 498.66,
+      "r": 2.39,
+      "capital": 21370.33
     },
     {
-      "symbol": "AEVOUSDT",
+      "symbol": "ZKUSDT",
       "side": "long",
-      "entry": 0.0266,
-      "exit": 0.0259,
-      "pnl": -209.73,
+      "entry": 0.0132,
+      "exit": 0.0128,
+      "pnl": -220.42,
+      "r": -1.03,
+      "capital": 21142.97
+    },
+    {
+      "symbol": "ZKUSDT",
+      "side": "long",
+      "entry": 0.013,
+      "exit": 0.0126,
+      "pnl": -219.19,
       "r": -1.04,
-      "capital": 20027.84
+      "capital": 20915.8
     },
     {
-      "symbol": "AEVOUSDT",
+      "symbol": "ZKUSDT",
       "side": "long",
-      "entry": 0.0268,
-      "exit": 0.0261,
-      "pnl": -208.12,
+      "entry": 0.0125,
+      "exit": 0.0121,
+      "pnl": -215.09,
+      "r": -1.03,
+      "capital": 20694.56
+    },
+    {
+      "symbol": "ZKUSDT",
+      "side": "long",
+      "entry": 0.0122,
+      "exit": 0.0118,
+      "pnl": -214.29,
       "r": -1.04,
-      "capital": 19811.67
+      "capital": 20472.7
     },
     {
-      "symbol": "AEVOUSDT",
+      "symbol": "ZKUSDT",
       "side": "long",
-      "entry": 0.0267,
-      "exit": 0.0262,
-      "pnl": -208.95,
-      "r": -1.05,
-      "capital": 19591.68
+      "entry": 0.0123,
+      "exit": 0.013,
+      "pnl": 452.45,
+      "r": 2.21,
+      "capital": 20918.2
     },
     {
-      "symbol": "AEVOUSDT",
+      "symbol": "ZKUSDT",
       "side": "long",
-      "entry": 0.0264,
-      "exit": 0.0258,
-      "pnl": -205.71,
-      "r": -1.05,
-      "capital": 19375.98
+      "entry": 0.0126,
+      "exit": 0.0131,
+      "pnl": 306.01,
+      "r": 1.46,
+      "capital": 21218.39
     },
     {
-      "symbol": "AEVOUSDT",
+      "symbol": "ZKUSDT",
       "side": "long",
-      "entry": 0.0259,
-      "exit": 0.0266,
-      "pnl": 395.67,
-      "r": 2.04,
-      "capital": 19764.7
-    },
-    {
-      "symbol": "AEVOUSDT",
-      "side": "long",
-      "entry": 0.0265,
-      "exit": 0.0255,
-      "pnl": -202.62,
-      "r": -1.03,
-      "capital": 19556.91
-    },
-    {
-      "symbol": "ETHFIUSDT",
-      "side": "long",
-      "entry": 0.6295,
-      "exit": 0.6577,
-      "pnl": 403.45,
-      "r": 2.06,
-      "capital": 19956.07
-    },
-    {
-      "symbol": "ETHFIUSDT",
-      "side": "long",
-      "entry": 0.6805,
-      "exit": 0.642,
-      "pnl": -203.06,
-      "r": -1.02,
-      "capital": 19749.3
-    },
-    {
-      "symbol": "ETHFIUSDT",
-      "side": "long",
-      "entry": 0.6721,
-      "exit": 0.6144,
-      "pnl": -199.7,
-      "r": -1.01,
-      "capital": 19547.19
-    },
-    {
-      "symbol": "ETHFIUSDT",
-      "side": "long",
-      "entry": 0.6239,
-      "exit": 0.7348,
-      "pnl": 538.61,
-      "r": 2.76,
-      "capital": 20080.69
-    },
-    {
-      "symbol": "ETHFIUSDT",
-      "side": "long",
-      "entry": 0.7455,
-      "exit": 0.7233,
-      "pnl": -207.67,
-      "r": -1.03,
-      "capital": 19865.95
-    },
-    {
-      "symbol": "ETHFIUSDT",
-      "side": "long",
-      "entry": 0.7206,
-      "exit": 0.6883,
-      "pnl": -203.1,
-      "r": -1.02,
-      "capital": 19658.2
-    },
-    {
-      "symbol": "ETHFIUSDT",
-      "side": "long",
-      "entry": 0.731,
-      "exit": 0.7016,
-      "pnl": -201.51,
-      "r": -1.03,
-      "capital": 19451.56
-    },
-    {
-      "symbol": "ETHFIUSDT",
-      "side": "long",
-      "entry": 0.7119,
-      "exit": 0.6878,
-      "pnl": -200.34,
-      "r": -1.03,
-      "capital": 19245.19
-    },
-    {
-      "symbol": "ETHFIUSDT",
-      "side": "long",
-      "entry": 0.6924,
-      "exit": 0.7153,
-      "pnl": 292.49,
-      "r": 1.52,
-      "capital": 19530.88
-    },
-    {
-      "symbol": "ETHFIUSDT",
-      "side": "long",
-      "entry": 0.7501,
-      "exit": 0.7182,
-      "pnl": -199.93,
-      "r": -1.02,
-      "capital": 19326.12
-    },
-    {
-      "symbol": "ETHFIUSDT",
-      "side": "long",
-      "entry": 0.7437,
-      "exit": 0.7199,
-      "pnl": -199.39,
-      "r": -1.03,
-      "capital": 19120.39
-    },
-    {
-      "symbol": "ETHFIUSDT",
-      "side": "long",
-      "entry": 0.6992,
-      "exit": 0.7636,
-      "pnl": 429.28,
-      "r": 2.25,
-      "capital": 19545.65
-    },
-    {
-      "symbol": "ETHFIUSDT",
-      "side": "long",
-      "entry": 0.7788,
-      "exit": 0.7485,
-      "pnl": -200.52,
-      "r": -1.03,
-      "capital": 19339.86
-    },
-    {
-      "symbol": "ETHFIUSDT",
-      "side": "long",
-      "entry": 0.7418,
-      "exit": 0.7178,
-      "pnl": -199.46,
-      "r": -1.03,
-      "capital": 19134.13
-    },
-    {
-      "symbol": "ETHFIUSDT",
-      "side": "long",
-      "entry": 0.7259,
-      "exit": 0.7402,
-      "pnl": 262.44,
-      "r": 1.37,
-      "capital": 19388.02
-    },
-    {
-      "symbol": "ETHFIUSDT",
-      "side": "long",
-      "entry": 0.7689,
-      "exit": 0.7462,
-      "pnl": -200.58,
-      "r": -1.03,
-      "capital": 19180.55
-    },
-    {
-      "symbol": "ETHFIUSDT",
-      "side": "long",
-      "entry": 0.7886,
-      "exit": 0.754,
-      "pnl": -196.2,
-      "r": -1.02,
-      "capital": 18979.75
-    },
-    {
-      "symbol": "ETHFIUSDT",
-      "side": "long",
-      "entry": 0.7868,
-      "exit": 0.7577,
-      "pnl": -194.99,
-      "r": -1.03,
-      "capital": 18779.37
-    },
-    {
-      "symbol": "ETHFIUSDT",
-      "side": "long",
-      "entry": 0.7357,
-      "exit": 0.709,
-      "pnl": -193.04,
-      "r": -1.03,
-      "capital": 18580.89
-    },
-    {
-      "symbol": "ETHFIUSDT",
-      "side": "long",
-      "entry": 0.7122,
-      "exit": 0.6829,
-      "pnl": -190.35,
-      "r": -1.02,
-      "capital": 18385.8
-    },
-    {
-      "symbol": "ETHFIUSDT",
-      "side": "long",
-      "entry": 0.7152,
-      "exit": 0.6827,
-      "pnl": -187.91,
-      "r": -1.02,
-      "capital": 18193.64
-    },
-    {
-      "symbol": "1000PEPEUSDT",
-      "side": "long",
-      "entry": 0.0035,
-      "exit": 0.0034,
-      "pnl": -185.75,
-      "r": -1.02,
-      "capital": 18003.89
-    },
-    {
-      "symbol": "1000PEPEUSDT",
-      "side": "long",
-      "entry": 0.0035,
-      "exit": 0.0034,
-      "pnl": -190.19,
-      "r": -1.06,
-      "capital": 17803.35
-    },
-    {
-      "symbol": "1000PEPEUSDT",
-      "side": "long",
-      "entry": 0.0035,
-      "exit": 0.0034,
-      "pnl": -185.43,
+      "entry": 0.013,
+      "exit": 0.0127,
+      "pnl": -220.57,
       "r": -1.04,
-      "capital": 17610.34
+      "capital": 20989.21
     },
     {
-      "symbol": "1000PEPEUSDT",
+      "symbol": "ZKUSDT",
       "side": "long",
-      "entry": 0.0035,
-      "exit": 0.0034,
-      "pnl": -181.6,
-      "r": -1.03,
-      "capital": 17423.06
+      "entry": 0.013,
+      "exit": 0.0126,
+      "pnl": -217.75,
+      "r": -1.04,
+      "capital": 20763.39
     },
     {
-      "symbol": "1000PEPEUSDT",
+      "symbol": "ZKUSDT",
       "side": "long",
-      "entry": 0.0034,
-      "exit": 0.0038,
-      "pnl": 438.84,
-      "r": 2.52,
-      "capital": 17855.58
+      "entry": 0.0128,
+      "exit": 0.0137,
+      "pnl": 351.58,
+      "r": 1.69,
+      "capital": 21110.51
     },
     {
-      "symbol": "1000PEPEUSDT",
+      "symbol": "ZKUSDT",
       "side": "long",
-      "entry": 0.0038,
+      "entry": 0.0146,
+      "exit": 0.016,
+      "pnl": 347.27,
+      "r": 1.65,
+      "capital": 21454.7
+    },
+    {
+      "symbol": "REZUSDT",
+      "side": "long",
+      "entry": 0.0032,
+      "exit": 0.0037,
+      "pnl": 523.59,
+      "r": 2.42,
+      "capital": 22183.0
+    },
+    {
+      "symbol": "REZUSDT",
+      "side": "long",
+      "entry": 0.0048,
       "exit": 0.004,
-      "pnl": 410.26,
-      "r": 2.3,
-      "capital": 18257.54
+      "pnl": -223.0,
+      "r": -1.01,
+      "capital": 21958.59
     },
     {
-      "symbol": "1000PEPEUSDT",
+      "symbol": "REZUSDT",
+      "side": "long",
+      "entry": 0.0037,
+      "exit": 0.0035,
+      "pnl": -223.0,
+      "r": -1.02,
+      "capital": 21731.93
+    },
+    {
+      "symbol": "REZUSDT",
+      "side": "long",
+      "entry": 0.0037,
+      "exit": 0.0043,
+      "pnl": 504.65,
+      "r": 2.32,
+      "capital": 22233.69
+    },
+    {
+      "symbol": "REZUSDT",
+      "side": "long",
+      "entry": 0.0044,
+      "exit": 0.0043,
+      "pnl": -230.47,
+      "r": -1.04,
+      "capital": 21994.86
+    },
+    {
+      "symbol": "REZUSDT",
+      "side": "long",
+      "entry": 0.0044,
+      "exit": 0.0042,
+      "pnl": -228.32,
+      "r": -1.04,
+      "capital": 21757.94
+    },
+    {
+      "symbol": "REZUSDT",
+      "side": "long",
+      "entry": 0.0041,
+      "exit": 0.004,
+      "pnl": -222.78,
+      "r": -1.02,
+      "capital": 21529.74
+    },
+    {
+      "symbol": "REZUSDT",
+      "side": "long",
+      "entry": 0.0041,
+      "exit": 0.0047,
+      "pnl": 599.82,
+      "r": 2.79,
+      "capital": 22122.01
+    },
+    {
+      "symbol": "REZUSDT",
+      "side": "long",
+      "entry": 0.0045,
+      "exit": 0.0044,
+      "pnl": -228.33,
+      "r": -1.03,
+      "capital": 21886.33
+    },
+    {
+      "symbol": "REZUSDT",
+      "side": "long",
+      "entry": 0.0043,
+      "exit": 0.0042,
+      "pnl": -228.38,
+      "r": -1.04,
+      "capital": 21648.19
+    },
+    {
+      "symbol": "REZUSDT",
       "side": "long",
       "entry": 0.004,
-      "exit": 0.0049,
-      "pnl": 560.47,
-      "r": 3.07,
-      "capital": 18812.68
-    },
-    {
-      "symbol": "1000PEPEUSDT",
-      "side": "long",
-      "entry": 0.005,
-      "exit": 0.0048,
-      "pnl": -193.05,
-      "r": -1.03,
-      "capital": 18614.52
-    },
-    {
-      "symbol": "1000PEPEUSDT",
-      "side": "long",
-      "entry": 0.0044,
-      "exit": 0.0042,
-      "pnl": -191.31,
-      "r": -1.03,
-      "capital": 18417.84
-    },
-    {
-      "symbol": "1000PEPEUSDT",
-      "side": "long",
-      "entry": 0.0044,
-      "exit": 0.0042,
-      "pnl": -188.53,
-      "r": -1.02,
-      "capital": 18224.77
-    },
-    {
-      "symbol": "1000PEPEUSDT",
-      "side": "long",
-      "entry": 0.0043,
-      "exit": 0.0042,
-      "pnl": -188.54,
-      "r": -1.03,
-      "capital": 18029.74
-    },
-    {
-      "symbol": "1000PEPEUSDT",
-      "side": "long",
-      "entry": 0.0043,
-      "exit": 0.0045,
-      "pnl": 384.1,
-      "r": 2.13,
-      "capital": 18407.44
-    },
-    {
-      "symbol": "1000PEPEUSDT",
-      "side": "long",
-      "entry": 0.0043,
-      "exit": 0.0044,
-      "pnl": 291.94,
-      "r": 1.59,
-      "capital": 18689.56
-    },
-    {
-      "symbol": "1000PEPEUSDT",
-      "side": "long",
-      "entry": 0.0043,
-      "exit": 0.0043,
-      "pnl": -197.31,
-      "r": -1.06,
-      "capital": 18481.63
-    },
-    {
-      "symbol": "1000PEPEUSDT",
-      "side": "long",
-      "entry": 0.0042,
-      "exit": 0.0041,
-      "pnl": -193.67,
-      "r": -1.05,
-      "capital": 18278.92
-    },
-    {
-      "symbol": "BRETTUSDT",
-      "side": "long",
-      "entry": 0.005,
-      "exit": 0.0049,
-      "pnl": -190.77,
+      "exit": 0.0039,
+      "pnl": -224.56,
       "r": -1.04,
-      "capital": 18074.42
+      "capital": 21415.32
     },
     {
-      "symbol": "BRETTUSDT",
+      "symbol": "REZUSDT",
       "side": "long",
-      "entry": 0.0049,
-      "exit": 0.0046,
-      "pnl": -183.55,
-      "r": -1.02,
-      "capital": 17887.87
-    },
-    {
-      "symbol": "BRETTUSDT",
-      "side": "long",
-      "entry": 0.0049,
-      "exit": 0.005,
-      "pnl": 272.42,
-      "r": 1.52,
-      "capital": 18153.34
-    },
-    {
-      "symbol": "BRETTUSDT",
-      "side": "long",
-      "entry": 0.0052,
-      "exit": 0.0054,
-      "pnl": 269.96,
-      "r": 1.49,
-      "capital": 18416.66
-    },
-    {
-      "symbol": "BRETTUSDT",
-      "side": "long",
-      "entry": 0.0054,
-      "exit": 0.0058,
-      "pnl": 327.48,
-      "r": 1.78,
-      "capital": 18739.55
-    },
-    {
-      "symbol": "BRETTUSDT",
-      "side": "long",
-      "entry": 0.0058,
-      "exit": 0.0056,
-      "pnl": -191.58,
-      "r": -1.02,
-      "capital": 18543.58
-    },
-    {
-      "symbol": "BRETTUSDT",
-      "side": "long",
-      "entry": 0.0054,
-      "exit": 0.0056,
-      "pnl": 384.62,
-      "r": 2.07,
-      "capital": 18923.72
-    },
-    {
-      "symbol": "BRETTUSDT",
-      "side": "long",
-      "entry": 0.0058,
-      "exit": 0.0061,
-      "pnl": 410.55,
-      "r": 2.17,
-      "capital": 19328.39
-    },
-    {
-      "symbol": "BRETTUSDT",
-      "side": "long",
-      "entry": 0.0057,
-      "exit": 0.0059,
-      "pnl": 269.52,
-      "r": 1.39,
-      "capital": 19592.77
-    },
-    {
-      "symbol": "BRETTUSDT",
-      "side": "long",
-      "entry": 0.0057,
-      "exit": 0.006,
-      "pnl": 426.73,
-      "r": 2.18,
-      "capital": 20012.28
-    },
-    {
-      "symbol": "BRETTUSDT",
-      "side": "long",
-      "entry": 0.0059,
-      "exit": 0.0057,
-      "pnl": -206.83,
-      "r": -1.03,
-      "capital": 19798.54
-    },
-    {
-      "symbol": "BRETTUSDT",
-      "side": "long",
-      "entry": 0.0059,
-      "exit": 0.0059,
-      "pnl": 227.55,
-      "r": 1.15,
-      "capital": 20017.73
-    },
-    {
-      "symbol": "BRETTUSDT",
-      "side": "long",
-      "entry": 0.0056,
-      "exit": 0.0058,
-      "pnl": 414.42,
-      "r": 2.07,
-      "capital": 20426.09
-    },
-    {
-      "symbol": "BRETTUSDT",
-      "side": "long",
-      "entry": 0.0059,
-      "exit": 0.0057,
-      "pnl": -208.85,
-      "r": -1.02,
-      "capital": 20212.43
-    },
-    {
-      "symbol": "POPCATUSDT",
-      "side": "long",
-      "entry": 0.0469,
-      "exit": 0.0486,
-      "pnl": 359.37,
-      "r": 1.78,
-      "capital": 20562.09
-    },
-    {
-      "symbol": "POPCATUSDT",
-      "side": "long",
-      "entry": 0.0498,
-      "exit": 0.0485,
-      "pnl": -213.54,
-      "r": -1.04,
-      "capital": 20340.41
-    },
-    {
-      "symbol": "POPCATUSDT",
-      "side": "long",
-      "entry": 0.0493,
-      "exit": 0.0551,
-      "pnl": 526.65,
-      "r": 2.59,
-      "capital": 20860.45
-    },
-    {
-      "symbol": "POPCATUSDT",
-      "side": "long",
-      "entry": 0.0574,
-      "exit": 0.0548,
-      "pnl": -213.29,
-      "r": -1.02,
-      "capital": 20642.25
-    },
-    {
-      "symbol": "POPCATUSDT",
-      "side": "long",
-      "entry": 0.0571,
-      "exit": 0.0554,
-      "pnl": -213.31,
-      "r": -1.03,
-      "capital": 20421.84
-    },
-    {
-      "symbol": "POPCATUSDT",
-      "side": "long",
-      "entry": 0.0544,
-      "exit": 0.0526,
-      "pnl": -210.57,
-      "r": -1.03,
-      "capital": 20204.69
-    },
-    {
-      "symbol": "POPCATUSDT",
-      "side": "long",
-      "entry": 0.0547,
-      "exit": 0.0526,
-      "pnl": -207.41,
-      "r": -1.03,
-      "capital": 19991.71
-    },
-    {
-      "symbol": "POPCATUSDT",
-      "side": "long",
-      "entry": 0.0548,
-      "exit": 0.0533,
-      "pnl": -206.98,
-      "r": -1.04,
-      "capital": 19777.45
-    },
-    {
-      "symbol": "POPCATUSDT",
-      "side": "long",
-      "entry": 0.0537,
-      "exit": 0.0527,
-      "pnl": -208.44,
+      "entry": 0.004,
+      "exit": 0.0039,
+      "pnl": -225.77,
       "r": -1.05,
-      "capital": 19558.15
+      "capital": 21177.72
     },
     {
-      "symbol": "POPCATUSDT",
+      "symbol": "REZUSDT",
       "side": "long",
-      "entry": 0.0538,
-      "exit": 0.0527,
-      "pnl": -206.09,
+      "entry": 0.004,
+      "exit": 0.0039,
+      "pnl": -222.34,
       "r": -1.05,
-      "capital": 19341.34
+      "capital": 20944.6
     }
   ]
 }
