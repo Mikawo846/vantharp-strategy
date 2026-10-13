@@ -96,56 +96,87 @@ def run_backtest(symbol, cfg, start_capital):
         if pos:
             entry = pos["entry"]
             pr    = pos["price_risk"]
+            side  = pos.get("side","long")
 
-            if not pos["t1_done"] and c["high"] >= entry + cfg["target_1_r"] * pr:
-                ep = entry + cfg["target_1_r"] * pr
-                qc = pos["qty"] * 0.50
-                pnl = qc * (ep - entry) - cost(ep, qc, cfg)
-                capital += pnl
-                pos["qty"] -= qc
-                pos["t1_done"] = True
-                pos["pnl"] += pnl
+            if side == "long":
+                # Цель 1
+                if not pos["t1_done"] and c["high"] >= entry + cfg["target_1_r"] * pr:
+                    ep = entry + cfg["target_1_r"] * pr
+                    qc = pos["qty"] * 0.50
+                    pnl = qc * (ep - entry) - cost(ep, qc, cfg)
+                    capital += pnl; pos["qty"] -= qc
+                    pos["t1_done"] = True; pos["pnl"] += pnl
+                # Цель 2
+                if pos["t1_done"] and not pos["t2_done"] and c["high"] >= entry + cfg["target_2_r"] * pr:
+                    ep = entry + cfg["target_2_r"] * pr
+                    qc = pos["qty"] * 0.60
+                    pnl = qc * (ep - entry) - cost(ep, qc, cfg)
+                    capital += pnl; pos["qty"] -= qc
+                    pos["t2_done"] = True; pos["pnl"] += pnl
+                # Трейлинг
+                if pos["t1_done"] and etr > pos["trail_stop"]:
+                    pos["trail_stop"] = etr
+                eff_stop = max(pos["stop"], pos["trail_stop"]) if pos["t1_done"] else pos["stop"]
+                if c["low"] <= eff_stop:
+                    ep = eff_stop
+                    pnl = pos["qty"] * (ep - entry) - cost(ep, pos["qty"], cfg)
+                    capital += pnl; pos["pnl"] += pnl
+                    r_mult = round(pos["pnl"] / pos["risk_usd"], 2) if pos["risk_usd"] else 0
+                    trades.append({"symbol":symbol,"side":"long","entry":round(entry,4),"exit":round(ep,4),
+                                   "pnl":round(pos["pnl"],2),"r":r_mult,"capital":round(capital,2)})
+                    if capital > peak_cap: peak_cap = capital
+                    pos = None
 
-            if pos["t1_done"] and not pos["t2_done"] and c["high"] >= entry + cfg["target_2_r"] * pr:
-                ep = entry + cfg["target_2_r"] * pr
-                qc = pos["qty"] * 0.60
-                pnl = qc * (ep - entry) - cost(ep, qc, cfg)
-                capital += pnl
-                pos["qty"] -= qc
-                pos["t2_done"] = True
-                pos["pnl"] += pnl
-
-            if pos["t1_done"] and etr > pos["trail_stop"]:
-                pos["trail_stop"] = etr
-
-            eff_stop = max(pos["stop"], pos["trail_stop"]) if pos["t1_done"] else pos["stop"]
-
-            if c["low"] <= eff_stop:
-                ep   = eff_stop
-                pnl  = pos["qty"] * (ep - entry) - cost(ep, pos["qty"], cfg)
-                capital += pnl
-                pos["pnl"] += pnl
-                r_mult = round(pos["pnl"] / pos["risk_usd"], 2) if pos["risk_usd"] else 0
-                trades.append({"symbol":symbol,"entry":round(entry,4),"exit":round(ep,4),
-                               "pnl":round(pos["pnl"],2),"r":r_mult,"capital":round(capital,2)})
-                if capital > peak_cap: peak_cap = capital
-                pos = None
+            else:  # SHORT
+                # Цель 1
+                if not pos["t1_done"] and c["low"] <= entry - cfg["target_1_r"] * pr:
+                    ep = entry - cfg["target_1_r"] * pr
+                    qc = pos["qty"] * 0.50
+                    pnl = qc * (entry - ep) - cost(ep, qc, cfg)
+                    capital += pnl; pos["qty"] -= qc
+                    pos["t1_done"] = True; pos["pnl"] += pnl
+                # Цель 2
+                if pos["t1_done"] and not pos["t2_done"] and c["low"] <= entry - cfg["target_2_r"] * pr:
+                    ep = entry - cfg["target_2_r"] * pr
+                    qc = pos["qty"] * 0.60
+                    pnl = qc * (entry - ep) - cost(ep, qc, cfg)
+                    capital += pnl; pos["qty"] -= qc
+                    pos["t2_done"] = True; pos["pnl"] += pnl
+                # Трейлинг шорт
+                if pos["t1_done"] and etr < pos["trail_stop"]:
+                    pos["trail_stop"] = etr
+                eff_stop = min(pos["stop"], pos["trail_stop"]) if pos["t1_done"] else pos["stop"]
+                if c["high"] >= eff_stop:
+                    ep = eff_stop
+                    pnl = pos["qty"] * (entry - ep) - cost(ep, pos["qty"], cfg)
+                    capital += pnl; pos["pnl"] += pnl
+                    r_mult = round(pos["pnl"] / pos["risk_usd"], 2) if pos["risk_usd"] else 0
+                    trades.append({"symbol":symbol,"side":"short","entry":round(entry,4),"exit":round(ep,4),
+                                   "pnl":round(pos["pnl"],2),"r":r_mult,"capital":round(capital,2)})
+                    if capital > peak_cap: peak_cap = capital
+                    pos = None
 
         elif pos is None:
             prev = candles[i-1]
-            if prev["close"] <= et: continue
+            dd = (peak_cap - capital) / peak_cap * 100
+            if dd >= cfg["max_drawdown_pct"]: continue
+
+            # LONG — пробой вверх, цена выше EMA200
             rh = [candles[j]["high"] for j in range(i - bp - 1, i - 1)]
-            if prev["high"] <= max(rh): continue
-            if (peak_cap - capital) / peak_cap * 100 >= cfg["max_drawdown_pct"]: continue
-            ep = c["open"]
-            sp = ep - cfg["atr_multiplier"] * atr
-            ru = capital * (cfg["risk_per_trade_pct"] / 100)
-            pr = abs(ep - sp)
-            if pr == 0: continue
-            qty = ru / pr
-            capital -= cost(ep, qty, cfg)
-            pos = {"entry":ep,"stop":sp,"trail_stop":sp,"qty":qty,
-                   "risk_usd":ru,"price_risk":pr,"pnl":0.0,"t1_done":False,"t2_done":False}
+            rl = [candles[j]["low"]  for j in range(i - bp - 1, i - 1)]
+
+            if prev["close"] > et and prev["high"] > max(rh):
+                ep = c["open"]
+                sp = ep - cfg["atr_multiplier"] * atr
+                ru = capital * (cfg["risk_per_trade_pct"] / 100)
+                pr = abs(ep - sp)
+                if pr > 0:
+                    qty = ru / pr
+                    capital -= cost(ep, qty, cfg)
+                    pos = {"side":"long","entry":ep,"stop":sp,"trail_stop":sp,"qty":qty,
+                           "risk_usd":ru,"price_risk":pr,"pnl":0.0,"t1_done":False,"t2_done":False}
+
+
 
         if capital > peak_cap: peak_cap = capital
 
