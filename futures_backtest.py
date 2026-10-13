@@ -31,16 +31,30 @@ def std(vals):
     m = sum(vals) / len(vals)
     return math.sqrt(sum((x - m) ** 2 for x in vals) / len(vals))
 
-def fetch_klines(symbol, interval="240", limit=1000):
-    r = requests.get("https://api.bybit.com/v5/market/kline",
-        params={"category":"linear","symbol":symbol,"interval":interval,"limit":limit}, timeout=15)
-    data = r.json()
-    if data["retCode"] != 0: raise RuntimeError(data["retMsg"])
+def fetch_klines(symbol, interval="60", limit=1000):
+    url = "https://api.bybit.com/v5/market/kline"
     result = []
-    for row in sorted(data["result"]["list"], key=lambda x: int(x[0])):
-        result.append({"ts":int(row[0]),"open":float(row[1]),"high":float(row[2]),
-                       "low":float(row[3]),"close":float(row[4]),"volume":float(row[5])})
-    return result
+    current_end = None
+    while len(result) < limit:
+        batch_size = min(1000, limit - len(result))
+        params = {"category":"linear","symbol":symbol,"interval":interval,"limit":batch_size}
+        if current_end:
+            params["end"] = current_end
+        r = requests.get(url, params=params, timeout=15)
+        data = r.json()
+        if data["retCode"] != 0: raise RuntimeError(data["retMsg"])
+        rows = data["result"]["list"]
+        if not rows: break
+        batch = [{"ts":int(row[0]),"open":float(row[1]),"high":float(row[2]),
+                  "low":float(row[3]),"close":float(row[4]),"volume":float(row[5])} for row in rows]
+        result.extend(batch)
+        if len(batch) < batch_size: break
+        current_end = min(b["ts"] for b in batch) - 1
+    seen = set(); dedup = []
+    for r in sorted(result, key=lambda x: x["ts"]):
+        if r["ts"] not in seen:
+            seen.add(r["ts"]); dedup.append(r)
+    return dedup[-limit:]
 
 def calc_atr(candles, period=14):
     atrs = [None] * len(candles)
@@ -71,6 +85,31 @@ def calc_ema(candles, period):
 def cost(price, qty, cfg):
     return price * qty * ((cfg["commission_pct"] + cfg["slippage_pct"]) / 100)
 
+def get_btc_daily_ema200():
+    r = requests.get("https://api.bybit.com/v5/market/kline",
+        params={"category":"linear","symbol":"BTCUSDT","interval":"D","limit":250}, timeout=15)
+    data = r.json()
+    if data["retCode"] != 0: return {}
+    candles = []
+    for row in sorted(data["result"]["list"], key=lambda x: int(x[0])):
+        candles.append({"ts":int(row[0]),"close":float(row[4])})
+    emas = [None]*len(candles)
+    closes = [c["close"] for c in candles]
+    if len(closes) >= 200:
+        emas[199] = sum(closes[:200])/200
+        k = 2/201
+        for i in range(200, len(closes)):
+            emas[i] = closes[i]*k + emas[i-1]*(1-k)
+    btc_trend = {}
+    for i, c in enumerate(candles):
+        if emas[i] is not None:
+            day_ts = (c["ts"] // 86400000) * 86400000
+            btc_trend[day_ts] = c["close"] > emas[i]
+    return btc_trend
+
+BTC_TREND = get_btc_daily_ema200()
+print("  BTC тренд загружен: " + str(len(BTC_TREND)) + " дней")
+
 def run_backtest(symbol, cfg, start_capital):
     try:
         candles = fetch_klines(symbol, cfg["interval"], cfg["limit"])
@@ -92,6 +131,7 @@ def run_backtest(symbol, cfg, start_capital):
         et    = ema_trend[i]
         etr   = ema_trail[i]
         if atr is None or et is None or etr is None: continue
+
 
         if pos:
             entry = pos["entry"]
@@ -165,7 +205,9 @@ def run_backtest(symbol, cfg, start_capital):
             rh = [candles[j]["high"] for j in range(i - bp - 1, i - 1)]
             rl = [candles[j]["low"]  for j in range(i - bp - 1, i - 1)]
 
-            if prev["close"] > et and prev["high"] > max(rh):
+            day_key = (c["ts"] // 86400000) * 86400000
+            btc_bull = BTC_TREND.get(day_key, True)
+            if btc_bull and prev["close"] > et and prev["high"] > max(rh):
                 ep = c["open"]
                 sp = ep - cfg["atr_multiplier"] * atr
                 ru = capital * (cfg["risk_per_trade_pct"] / 100)
@@ -175,6 +217,8 @@ def run_backtest(symbol, cfg, start_capital):
                     capital -= cost(ep, qty, cfg)
                     pos = {"side":"long","entry":ep,"stop":sp,"trail_stop":sp,"qty":qty,
                            "risk_usd":ru,"price_risk":pr,"pnl":0.0,"t1_done":False,"t2_done":False}
+
+
 
 
 
