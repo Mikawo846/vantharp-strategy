@@ -1,0 +1,47 @@
+{
+  "strategy": "NostalgiaForInfinityX8",
+  "max_open_trades": 8,
+  "stake_currency": "USDT",
+  "stake_amount": "unlimited",
+  "tradable_balance_ratio": 0.7,
+  "dry_run": true,
+  "initial_state": "running",
+  "dry_run_wallet": 10000,
+  "trading_mode": "spot",
+  "exchange": {
+    "name": "bybit",
+    "key": "",
+    "secret": "",
+    "pair_whitelist": [],
+    "pair_blacklist": [
+      ".*BULL/USDT",
+      ".*BEAR/USDT",
+      ".*UP/USDT",
+      ".*DOWN/USDT"
+    ]
+  },
+  "pairlists": [
+    {
+      "method": "VolumePairList",
+      "number_assets": 60,
+      "sort_key": "quoteVolume",
+      "min_value": 0,
+      "refresh_period": 1800
+    }
+  ],
+  "entry_pricing": {
+    "use_order_book": true,
+    "order_book_top": 1
+  },
+  "exit_pricing": {
+    "use_order_book": true,
+    "order_book_top": 1
+  },
+  "api_server": {
+    "enabled": true,
+    "listen_ip_address": "127.0.0.1",
+    "listen_port": 8080,
+    "username": "freqtrader",
+    "password": "CHANGE_ME"
+  }
+}
